@@ -27,6 +27,13 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+	</dependencies>
+
 	<modules>
 		<module>../bookinfo-auth-server</module>
 		<module>../bookinfo-book-service</module>

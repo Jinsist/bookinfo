@@ -9,4 +9,17 @@
 		<relativePath>../bookinfo</relativePath>
 	</parent>
 	<artifactId>bookinfo-registry</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>com.github.andrewoma.dexx</groupId>
+		    <artifactId>collection</artifactId>
+		    <version>0.7</version>
+		</dependency>
+	</dependencies>
+	
 </project>

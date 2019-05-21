@@ -73,3 +73,11 @@ bookinfo-user-service/target/
 bookinfo-user-service/\.classpath
 
 bookinfo-user-service/\.project
+
+bookinfo-service-review/\.settings/
+
+bookinfo-service-review/target/
+
+bookinfo-service-review/\.classpath
+
+bookinfo-service-review/\.project
