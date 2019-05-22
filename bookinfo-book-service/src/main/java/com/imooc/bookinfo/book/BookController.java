@@ -4,6 +4,7 @@
 package com.imooc.bookinfo.book;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookController {
 
 	@GetMapping("/{id}")
-	public BookDTO findOne(Long id) {
-		return new BookDTO();
+	public BookDTO findOne(@PathVariable Long id) {
+		return new BookDTO(id);
 	}
 
 }

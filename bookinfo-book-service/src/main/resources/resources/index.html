@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图书管理页面</title>
+<script src="scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div id="book"></div>
+	<script type="text/javascript">
+		$.get("api/books/1",function(data,status){
+		    $("#book").text(data.id);
+	    });	
+	</script>
+
+</body>
+</html>
